@@ -132,6 +132,5 @@ def run_discord_bot():
             "\x1b[31mChatGPT bot has been successfully reset\x1b[0m")
         await send_start_prompt()
 
-        
     TOKEN = data['discord_bot_token']
     client.run(TOKEN)
